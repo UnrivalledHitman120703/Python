@@ -2,6 +2,14 @@
 # Name = Indrajeet Mondal; Date = 24th October 2023
 # SourceCode
 
+# Creating a class
+class BigObject:
+    pass
+
+
+# Creating an instance of the class BigObject
+obj1 = BigObject()
+
 # Some introductory examples:
 print(type(None))
 print(type(True))
@@ -11,6 +19,7 @@ print(type('Hi'))
 print(type([]))
 print(type(()))
 print(type({}))
+print(type(obj1))
 
 # Output
 # <class 'NoneType'>
