@@ -30,3 +30,7 @@ print(player2.run())
 # Both the objects are at different memory locations
 print(player1)
 print(player2)
+
+# Adding an attribute to the object player2
+player2.attack = 1000
+print(f"Attack power of {player2.name} is:- {player2.attack}")
