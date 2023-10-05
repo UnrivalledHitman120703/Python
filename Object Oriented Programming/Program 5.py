@@ -8,15 +8,13 @@ class PlayerCharacter:
         self._age = age
 
     def run(self):
-        print(f'Hello !! {self._name} is running')
-        return
+        return f'Hello !! {self._name} is running'
 
     def speak(self):
-        print(f'My name is {self._name}, and I am {self._age} years '
-              f'old')
-        return
+        return f'My name is {self._name}, and I am {self._age} years old'
 
-    # Instantiating the PlayerCharacter class
+
+# Instantiating the PlayerCharacter class
 
 
 player1 = PlayerCharacter('Andrei', 100)
