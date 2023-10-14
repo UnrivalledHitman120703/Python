@@ -5,6 +5,7 @@
 import unittest
 import main
 
+
 class TestMain(unittest.TestCase):
     # Testing with integer input
     def test_do_stuff(self):
@@ -14,7 +15,7 @@ class TestMain(unittest.TestCase):
 
     # Testing with string input
     def test_do_stuff2(self):
-        test_param = 'shkshks'
+        test_param = "shkshks"
         result = main.do_stuff(test_param)
         self.assertIsInstance(result, ValueError)
 
@@ -22,15 +23,16 @@ class TestMain(unittest.TestCase):
     def test_do_stuff3(self):
         test_param = None
         result = main.do_stuff(test_param)
-        self.assertEqual(result, 'Please enter an integer value')
+        self.assertEqual(result, "Please enter an integer value")
 
     def test_do_stuff4(self):
-        test_param = ''
+        test_param = ""
         result = main.do_stuff(test_param)
-        self.assertEqual(result, 'Please enter an integer value')
-    
+        self.assertEqual(result, "Please enter an integer value")
+
     def tearDown(self) -> None:
         print("Cleaning Up !!!")
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     unittest.main()
