@@ -3,5 +3,7 @@
 # SourceCode
 
 
-def add_item(item):
-    print(f"{item} added to cart !!")
+def buy_item(item):
+    cart = []
+    cart.append(item)
+    return cart

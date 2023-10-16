@@ -11,5 +11,5 @@ print("Using utility.divide() present in utility.py:- ", utility.divide(8, 4))
 
 print("Using utility.multiply() present in utility.py:- ", utility.multiply(2, 4))
 
-print("Using add_item() from shopping.shopping_cart: ")
-cart.add_item("Apple")
+print("Using buy_item() from shopping.shopping_cart: ")
+print(cart.buy_item("Apple"))
