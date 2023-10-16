@@ -1,4 +1,4 @@
-# Learning about python built-in modules
+# Learning about python built-in modules: random
 # Name = Indrajeet Mondal; Date = 16th October 2023
 # SourceCode
 
