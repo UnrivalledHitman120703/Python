@@ -5,11 +5,9 @@
 import shopping.shopping_cart as cart
 import utility
 
-print(utility)
 
-print("Using utility.divide() present in utility.py:- ", utility.divide(8, 4))
-
-print("Using utility.multiply() present in utility.py:- ", utility.multiply(2, 4))
-
-print("Using buy_item() from shopping.shopping_cart: ")
-print(cart.buy_item("Apple"))
+if __name__ == "__main--":
+    print("Using utility.divide() present in utility.py:- ", utility.divide(8, 4))
+    print("Using utility.multiply() present in utility.py:- ", utility.multiply(2, 4))
+    print("Using buy_item() from shopping.shopping_cart: ")
+    print(cart.buy_item("Apple"))
